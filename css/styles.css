@@ -1,19 +1,25 @@
 ﻿html {
-/*background: url(images/background.jpg) no-repeat center center fixed;
+background: url(images/background.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;*/
+background-size: cover;
  background-color:#DADADA;
   padding: 0;
   margin: 0;
- background-image: url('../images/background.jpg');
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
  height: 100%;
 }
 
+.gridContainer {
+    width: 100%;
+   /* max-width:1500px;*/
+    padding-left: 0.0%;
+    padding-right: 0.0%;
+    margin: auto;
+    clear: none;
+    float: none;
+    margin-left: auto;
+}
 
 @charset "utf-8";
 /* Simple fluid media
@@ -244,6 +250,10 @@ label {
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
+}
+
+.push{
+	min-width:214px;
 }
 
 a:link    {color:#fff!important; text-decoration:none; font-family: Arial, serif; }
@@ -1062,6 +1072,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 /*--------Footer Styles-------*/
 footer{
 	text-align: center;
+	height: 100%;
 	color:#fff;
 	padding-top: 20px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aa0101+3,000000+100 */
@@ -1094,18 +1105,17 @@ i{
 	color:#fff;
 }
 
-.copy{
+.copy-footer{
 	width:100%;
-	background:#000;
-	height: 100%;
+	background:transparent;
 	padding-top: 10px;
 	text-align: center;
 }
-.copyright{
+.copyright-footer{
 	font-size: 12px;
 	color:#fff;
 	font-style: normal;
-		text-align: center;
+	text-align: center;
 }
 
 
