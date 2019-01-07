@@ -990,7 +990,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     background: #E8E8E8;
 }
 
-.close{
+button.close{
 	text-align: right!important;
 	margin-right: 10px;
 }
