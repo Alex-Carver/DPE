@@ -22,7 +22,8 @@
   </head>
   <body>
  <div class="grid-container">
-    <header>
+
+      
      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light">
   <a class="navbar-brand" href="#"><img class="largeLogo" id="Logo" src="./images/dpeWhiteLogo.png" alt="logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,24 +73,7 @@
     </form>
   </div>
 </nav>
-<div class="gridContainer clearfix">
- <div class="row clearfix">
- <div id="headerSlides" class="fluid">
- <div class="camera_wrap camera_white_skin" id="camera_wrap_1">
-           <!-- <div data-src="images/slide5.jpg"><div class="camera_caption fadeFromLeft">
-      <p class="caption" style="text-transform: uppercase">Year-Round Outdoor Living</p>
-<a href="contact.asp"><p class="btn">Request Information</p></a>
-</div></div>-->
-      <div data-src="./images/slide1.jpg"><div class="camera_caption fadeFromRight"><span class="large camera_effected">Our Mission</span><p class="normal">
-        To provide high quality, progressive medicine, compassionate care and quality customer service to our patients and their owners.</p></div></div>
-            <div data-src="./images/slide2.jpg"><div class="camera_caption fadeIn"><span class="large camera_effected">Our Mission</span><p class="normal">To provide high quality, progressive medicine, compassionate care and quality customer service to our patients and their owners.</p></div></div>
-            <div data-src="./images/slide3.jpg"><div class="camera_caption fadeFromLeft"><span class="large camera_effected">Our Mission</span><p class="normal">To provide high quality, progressive medicine, compassionate care and quality customer service to our patients and their owners.</p></div></div>
- </div>
-<!-- #camera_wrap_1 -->
-</div>
-</div>
-</div>  <!--***********  Row End-->
-    </header>
+   
 
 <section id="services">
   <div class="container-fluid">
@@ -98,83 +82,99 @@
     </div>
     <div class="row clearfix">
       <div class="col-1-3">
+        <div class="card">
         <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service1.jpg" alt="service1">
           <div class="overlay">
-            <a href="#"><h3> Preventive Care</h3></a>
+            <a href="#" data-toggle="modal" data-target="#modal-one"><h3>Preventive Care</h3></a>
+           
           </div>
         </div>
         </div>
+        </div>
        <div class="col-1-3">
+         <div class="card">
          <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service2.jpg" alt="service2">
           <div class="overlay">
-            <a href="#"><h3>Sports Medicine</h3></a>
+            <a href="#" data-toggle="modal" data-target="#modal-two"><h3>Sports Medicine</h3></a>
           </div>
         </div>
-      
+        </div>
       </div>
        <div class="col-1-3">
+        <div class="card">
        <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service3.jpg" alt="service3">
           <div class="overlay">
-            <a href="#"><h3>Surgery</h3></a>
+            <a href="#" data-toggle="modal" data-target="#modal-three"><h3>Surgery</h3></a>
           </div>
         </div>
+      </div>
       </div>
     </div>
         <div class="row clearfix">
       <div class="col-1-3">
+      <div class="card">
         <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service4.jpg" alt="service4">
           <div class="overlay">
-            <a href="#"><h3> Internal Medicine</h3></a>
+            <a href="#" data-toggle="modal" data-target="#modal-four"><h3> Internal Medicine</h3></a>
           </div>
         </div>
+      </div>
         </div>
        <div class="col-1-3">
+         <div class="card">
          <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service5.jpg" alt="service5">
           <div class="overlay">
-            <a href="#"><h3>Reproduction</h3></a>
+            <a href="#" data-toggle="modal" data-target="#modal-five"><h3>Reproduction</h3></a>
           </div>
         </div>
-      
+      </div>
       </div>
        <div class="col-1-3">
+         <div class="card">
        <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service6.jpg" alt="service6">
           <div class="overlay">
-            <a href="#"><h3>Emergency and Critical Care</h3></a>
+            <a href="#"  data-toggle="modal" data-target="#modal-six"><h3>Emergency and Critical Care</h3></a>
           </div>
         </div>
+      </div>
       </div>
     </div>
         <div class="row clearfix">
       <div class="col-1-3">
+          <div class="card">
         <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service7.jpg" alt="service7">
           <div class="overlay">
-            <a href="#"><h3> Diagnostics</h3></a>
+            <a href="#" data-toggle="modal" data-target="#modal-seven"><h3> Diagnostics</h3></a>
           </div>
         </div>
+      </div>
         </div>
        <div class="col-1-3">
+        <div class="card">
          <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service8.jpg" alt="service8">
           <div class="overlay">
-            <a href="#"><h3>Additional Services</h3></a>
+            <a href="#" data-toggle="modal" data-target="#modal-eight"><h3>Additional Services</h3></a>
           </div>
         </div>
-      
+      </div>
       </div>
        <div class="col-1-3">
+        <div class="card">
        <div class="hovereffect">
           <img class="content-image img-fluid" src="./images/service9.jpg" alt="service9">
           <div class="overlay">
-            <a href="#"><h3> Rural Service Schedule</h3></a>
+            <a href="#" data-toggle="modal" data-target="#modal-nine"><h3> Rural Service Schedule</h3></a>
           </div>
         </div>
+      </div>
       </div>
     </div>
  
@@ -209,6 +209,205 @@ Fax: 702-645-4694</p>
  <p class="copyright-footer">2018 © Copyright DPE. All rights reserved. Site proudly designed and hosted by Big Sky Internet Design</p>
 </div>
   </footer>
+
+
+
+
+  <!-- Modal -->
+<div id="modal-one" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service1.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Preventive Care</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal-two" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service2.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Sports Medicine</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal-three" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service3.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Surgery</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-four" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service4.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Internal Medicine</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-five" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service5.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Reproduction</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-six" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service6.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Emergency and Critical Care</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-seven" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service7.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Diagnostics</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-eight" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service8.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Additional Services</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-nine" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="container">
+        <div class="row" >
+          <div class="col-1-2">
+            <img class="img-fluid" src="./images/service9.jpg">
+          </div>
+          <div class="col-1-2">
+            <h3>Rural Service Schedule</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
  <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
